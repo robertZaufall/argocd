@@ -10,7 +10,6 @@ applications:
         recurse: true
     destination:
       server: https://kubernetes.default.svc
-      namespace: guestbook
     syncPolicy:
       automated:
         prune: false
