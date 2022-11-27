@@ -5,7 +5,6 @@ metadata:
 spec:
   kafka:
     replicas: 2
-    version: 3.2.3
     logging:
       type: inline
       loggers:
@@ -17,7 +16,6 @@ spec:
       transaction.state.log.min.isr: 1
       default.replication.factor: 2
       min.insync.replicas: 1
-      inter.broker.protocol.version: "3.2"
     listeners:
       - name: plain
         port: 9092
